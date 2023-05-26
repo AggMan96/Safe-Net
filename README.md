@@ -19,7 +19,7 @@ Download [University-1652](https://github.com/layumi/University1652-Baseline) up
 ## Pretrained Vit-S weights
 You can download the pretrained Vit-S weights from the following link and put it in the **./models/pretrain_model** folder
 
-- [Google Driver](https://drive.google.com/file/d/1gEfXVVdL827J5SJ4KGOHhdWoeDZ7UjTd/view?usp=sharing)
+- [Google Driver](https://drive.google.com/file/d/1go49tENxorYBoployciTclbhC-ERgYu8/view?usp=sharing)
 
 ## Train & Evaluation
 ### Train & Evaluation on **University-1652**
