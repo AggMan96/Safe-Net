@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from vit_pytorch import vit_small_patch16_224_backbone
+from .vit_pytorch import vit_small_patch16_224_backbone
 
 ### Initialization Function
 def weights_init_kaiming(m):
