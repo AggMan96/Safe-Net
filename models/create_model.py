@@ -1,5 +1,5 @@
 import torch.nn as nn
-from model import Safe_Net_model
+from .model import Safe_Net_model
 
 class Safe_Net(nn.Module):
     def __init__(self, class_num, block=4, return_f=False, imgsize=256):
