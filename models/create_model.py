@@ -21,7 +21,7 @@ class Safe_Net(nn.Module):
         
 
 def create_model(opt):
-    model_path = "./pretrain_backbone/vit_small_p16_224-15ec54c9.pth"
+    model_path = "./models/pretrain_backbone/vit_small_p16_224-15ec54c9.pth"
 
     # create Safe-Net
     model = Safe_Net(class_num=opt.nclasses, block=opt.block, return_f=opt.triplet_loss, imgsize=opt.h)
