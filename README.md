@@ -16,6 +16,11 @@ Code for Safe-Net.
 ## Dataset & Preparation
 Download [University-1652](https://github.com/layumi/University1652-Baseline) upon request and put them under the `./data/` folder. You may use the request [template](https://github.com/layumi/University1652-Baseline/blob/master/Request.md).
 
+## Pretrained Vit-S weights
+You can download the pretrained Vit-S weights from the following link and put it in the **./models/pretrain_model** folder
+
+- [Google Driver](https://drive.google.com/file/d/1gEfXVVdL827J5SJ4KGOHhdWoeDZ7UjTd/view?usp=sharing)
+
 ## Train & Evaluation
 ### Train & Evaluation on **University-1652**
 ```
