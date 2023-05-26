@@ -101,7 +101,7 @@ class Safe_Net_model(nn.Module):
         self.num_classes = num_classes
 
         ## backbone -> Vit-S
-        transformer_name = "vit_small_patch16_224_FSRA"
+        transformer_name = "vit_small_patch16_224_backbone"
         print('using Transformer_type: {} as a backbone'.format(transformer_name))
         self.transformer = vit_small_patch16_224_backbone(img_size = (imgsize, imgsize), stride_size = [16, 16], drop_path_rate = 0.1,
                                                             drop_rate = 0.0, attn_drop_rate = 0.0)
