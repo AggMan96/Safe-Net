@@ -1,6 +1,6 @@
 name="SafeNet-block4-lr0.01-sp2-bs8-ep120-s256-U1652"
 data_dir="./data/University-Release/train"
-test_dir="./data/University-Release/test"
+test_dir="../../data/University-Release/test"
 gpu_ids=0
 num_worker=4
 lr=0.01
